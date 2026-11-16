@@ -182,9 +182,9 @@ p { margin: 0; }
 .feature-list li::before { content: ''; position: absolute; left: 0; top: .6em; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 
 /* Projects */
-.project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
 .project-card {
-  display: flex; flex-direction: column; gap: 1.5rem; text-decoration: none;
+  display: flex; flex-direction: column; gap: 1.25rem; text-decoration: none;
   padding: clamp(1.5rem, 3vw, 2.25rem); border-radius: var(--radius-lg);
   background: var(--surface); border: 1px solid var(--line); position: relative;
   transition: transform var(--t), box-shadow var(--t);

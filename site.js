@@ -59,7 +59,7 @@
   // Jump to hash target after layout (fonts/images can shift it on load)
   if (location.hash) {
     var jump = function () {
-      var t = document.querySelector(location.hash);
+      var t = document.getElementById(decodeURIComponent(location.hash.slice(1)));
       if (t) { t.scrollIntoView({ block: 'start' }); revealInView(); }
     };
     window.addEventListener('load', function () { setTimeout(jump, 50); });
