@@ -325,3 +325,11 @@ p { margin: 0; }
   .section-head--row .btn { width: auto; }
   .hero-ticker { gap: .6rem .9rem; }
 }
+
+/* ---------- Legal pages ---------- */
+.legal-page { padding: clamp(3.5rem, 8vw, 6rem) 0 var(--section); }
+.legal-wrap { max-width: 720px; }
+.legal-page h1 { font-size: var(--step-3); margin-bottom: 2.5rem; }
+.legal-page h2 { font-size: var(--step-0); font-weight: 700; margin: 2.25rem 0 .6rem; letter-spacing: -0.01em; }
+.legal-page p { color: var(--ink-2); margin-bottom: .9rem; max-width: 62ch; }
+.legal-page a { color: var(--ink); }
